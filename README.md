@@ -111,13 +111,13 @@ LIMIT 30;
 | 96         | 28           | 4           | 1                 | 4         |
 | 90         | 28           | 9           | 0                 | 4         |
 | please refer to the files in the repository to see the full results         |            |          |                  |          |
-- **The more the student sleep, the more they study and the higher ranks they get.**
+- **Sleep matters, but beyond a certain point, there's a diminishin return.**
 - The top-ranked students exhibit a balance of **attendance, study hours, and tutoring participation**.
 
 ---
 
 ## Visualizations
-*Please note, all visualizations were done using Python's Pandas, Matplotlib and Seaborn. For the code, please refer to data_visualizations.py.*
+*Please note, all visualizations were done using Python's Pandas, Matplotlib and Seaborn.*
 
 ### Average Exam Score vs. Hours Studied by Extracurricular Activities
 ![image](https://github.com/user-attachments/assets/b40d10e5-580b-487e-a72a-ecaae71e882c)
@@ -143,7 +143,7 @@ As mentioned before, studying more than 16 hours per week seems to lead to the h
 ### Exam Rank vs. Hours Studied taking Hours of Sleep and Exam Score into account
 ![image](https://github.com/user-attachments/assets/a3a5c522-2453-4f62-a918-144ae4f6e476)
 The data for this visualization comes from the third query result(`student_exam_ranking`).
-- In general, we see that the more the student sleeps, the higher attendance, more sleep hours and therefore better ranks. It makes perfect sense, and shows the importance of sleep in students performance.
+- In general, we see that the
 
 The only problem with this data and visualization, is that the third query limits the results to only 30 rows.
 What if we would like to see the trends with all the rows?
@@ -152,7 +152,7 @@ Well, for that a bubble chart won't cut it, too many rows (over 6600). For this,
 
 ### Average Exam Score based on Hours of Sleep and Study
 ![image](https://github.com/user-attachments/assets/ca36f3e9-e7c0-43e7-a31f-b4125356a686)
-Now everything becomes a little bit clearer. The heatmap is not using exam ranks, otherwise it's quite confusing, but from the graphic we can say, for sure, that the higher hours of sleep, the better exam scores. For the hours of sleep, it would seem that students need at least between 6 and 7 hours of sleep to perform well. However, there's conflicting data
+Now everything becomes a little bit clearer. The heatmap is not using exam ranks, otherwise it's quite confusing, but from the graphic we can say, for sure, that the higher hours of sleep, the better exam scores. For the hours of sleep, it would seem that students need at least between 6 and 7 hours of sleep to perform well. That is, sleep matters, but beyond a certain point there's diminishing return.
 
 ---
 
