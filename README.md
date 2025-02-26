@@ -152,7 +152,7 @@ Well, for that a bubble chart won't cut it, too many rows (over 6600). For this,
 
 ### Average Exam Score based on Hours of Sleep and Study
 ![image](https://github.com/user-attachments/assets/ca36f3e9-e7c0-43e7-a31f-b4125356a686)
-Now everything becomes a little bit clearer. The heatmap is not using exam ranks, otherwise it's quite confusing, but from the graphic we can say, for sure, that the higher hours of sleep, the better exam scores. For the hours of sleep, it would seem that students need at least between 6 and 7 hours of sleep to perform well. That is, sleep matters, but beyond a certain point there's diminishing return.
+Now everything becomes a little bit clearer. The heatmap is not using exam ranks, otherwise it's quite confusing. For the hours of sleep, it would seem that students need at least between 6 and 7 hours of sleep to perform well. That is, sleep matters, but beyond a certain point there's diminishing return.
 
 ---
 
