@@ -143,16 +143,7 @@ As mentioned before, studying more than 16 hours per week seems to lead to the h
 ### Exam Rank vs. Hours Studied taking Hours of Sleep and Exam Score into account
 ![image](https://github.com/user-attachments/assets/a3a5c522-2453-4f62-a918-144ae4f6e476)
 The data for this visualization comes from the third query result(`student_exam_ranking`).
-- In general, we see that the
-
-The only problem with this data and visualization, is that the third query limits the results to only 30 rows.
-What if we would like to see the trends with all the rows?
-
-Well, for that a bubble chart won't cut it, too many rows (over 6600). For this, a binned heatmap would be more useful..
-
-### Average Exam Score based on Hours of Sleep and Study
-![image](https://github.com/user-attachments/assets/ca36f3e9-e7c0-43e7-a31f-b4125356a686)
-Now everything becomes a little bit clearer. The heatmap is not using exam ranks, otherwise it's quite confusing. For the hours of sleep, it would seem that students need at least between 6 and 7 hours of sleep to perform well. That is, sleep matters, but beyond a certain point there's diminishing return.
+- In general, we see that there's a sweet spot regarding hours of sleep, and beyond that point there's diminishing return. Besides we can see that higher exam scores are found for students which study more hours, and those same students, logically, have better ranks.
 
 ---
 
