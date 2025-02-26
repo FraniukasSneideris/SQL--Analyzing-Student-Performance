@@ -159,17 +159,17 @@ Now everything becomes a little bit clearer. The heatmap is not using exam ranks
 ## 🔥 Key Takeaways
 
 ### **📌 Insights from the Data**
-✅ **Study hours matter**, but there is a diminishing return beyond a certain point.
-✅ **Balancing extracurricular activities with studying** appears beneficial but must be managed well.
-✅ **A sweet spot of study hours (11-15 per week) seems optimal** for most students.
-✅ **Good attendance and tutoring participation** also contribute to higher rankings.
+- **Study hours matter**, but there is a diminishing return beyond a certain point.
+- **Balancing extracurricular activities with studying** appears beneficial but must be managed well.
+- **A sweet spot of study hours (11-15 per week) seems optimal** for most students.
+- **Good attendance and tutoring participation** also contribute to higher rankings.
 
 ### **🛠 SQL Concepts Used**
-🚀 **Aggregation Functions**: Used `AVG()` to analyze trends in student scores.
-🚀 **CASE Statements**: Categorized study hours into meaningful ranges.
-🚀 **Window Functions**: Implemented `DENSE_RANK()` to fairly rank students.
-🚀 **Filtering with WHERE**: Focused on students meeting specific conditions.
-🚀 **Sorting & Grouping**: Used `ORDER BY` and `GROUP BY` to structure data effectively.
+- **Aggregation Functions**: Used `AVG()` to analyze trends in student scores.
+- **CASE Statements**: Categorized study hours into meaningful ranges.
+- **Window Functions**: Implemented `DENSE_RANK()` to fairly rank students.
+- **Filtering with WHERE**: Focused on students meeting specific conditions.
+- **Sorting & Grouping**: Used `ORDER BY` and `GROUP BY` to structure data effectively.
 
 ---
 ## 🎯 Conclusion
